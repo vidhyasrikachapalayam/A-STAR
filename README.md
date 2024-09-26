@@ -5,7 +5,7 @@
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
 
-``````
+```
 // A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
@@ -48,7 +48,7 @@
     e) push q on the closed list
     end (while loop)
 
-``````
+```
 <h2>PROGRAM</h2>
 ```
 from collections import defaultdict
@@ -117,9 +117,9 @@ print('Path does not exist!')
 return None
 ```
 
-<hr>
+
 <h2>Sample Graph I</h2>
-<hr>
+
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
 
