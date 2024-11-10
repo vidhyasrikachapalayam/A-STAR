@@ -1,11 +1,11 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name:       </h3>vidhyasri
-<h3>Register Number:           </h3>212222230170
+<h3>Name:Vidhyasri </h3>
+<h3>Register Number: 212222230170</h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
 
-```
+``````
 // A* Search Algorithm
 1.  Initialize the open list
 2.  Initialize the closed list
@@ -48,8 +48,8 @@
     e) push q on the closed list
     end (while loop)
 
-```
-<h2>PROGRAM</h2>
+``````
+## PROGRAM:
 ```
 from collections import defaultdict
 H_dist ={}
@@ -97,8 +97,8 @@ while len(open_set) > 0:
         print('Path does not exist!')
         return None
         
-#if the current node is the stop_node
-#then we begin reconstructin the path from it to the start_node
+# if the current node is the stop_node
+# then we begin reconstructin the path from it to the start_node
 
     if n == stop_node:
         path = []
@@ -117,9 +117,9 @@ print('Path does not exist!')
 return None
 ```
 
-
+<hr>
 <h2>Sample Graph I</h2>
-
+<hr>
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/b1377c3f-011a-4c0f-a843-516842ae056a)
 
@@ -155,7 +155,8 @@ J 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'F', 'G', 'I', 'J']
-<h2>PROGRAM:</h2>
+
+## PROGRAM:
 ```
 #define fuction to return neighbor and its distance
 #from the passed node
@@ -194,7 +195,6 @@ Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
 ```
-
 <hr>
 <h2>Sample Graph II</h2>
 <hr>
@@ -222,5 +222,10 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
-<h2>RESULT:</h2>
+
+## RESULT:
+
 Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.
+
+
+
